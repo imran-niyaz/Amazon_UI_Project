@@ -1,19 +1,18 @@
 package com.amazon.utilities;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import com.google.common.base.Function;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+import static org.junit.Assert.*;
+
+import org.junit.Assert;
+import org.openqa.selenium.*;
 import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.*;
 
-import junit.framework.Assert;
+import java.time.Duration;
+import java.util.*;
+
 
 public class browserUtils {
 	
